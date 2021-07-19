@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { HomeComponent } from './home/home.component';
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     CommonModule,
-    CommonsRoutingModule
+    CommonsRoutingModule,
+    MaterialModule
   ],
   exports: [
     HeaderComponent,
